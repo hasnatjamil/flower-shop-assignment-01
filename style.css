@@ -1,0 +1,301 @@
+
+        * {
+            border: 0px;
+            margin: 0px;
+            font-family: 'Lato', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .top {}
+
+        .top-container {
+            display: flex;
+            background: rgba(229, 84, 115, 0.10);
+            justify-content: space-around;
+            align-items: center;
+            padding: 50px 120px 0px;
+
+
+        }
+
+        .top-container-info {}
+
+        .top-container-title {
+            color: #272727;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+        }
+
+        .top-container-description {
+            color: rgba(39, 39, 39, 0.60);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            margin: 32px 0px;
+        }
+
+        .btn {
+            background: #E55473;
+            display: inline-flex;
+            padding: 10px 20px;
+            align-items: flex-start;
+            /* gap: 10px; */
+            border-radius: 8px;
+            color: #FFF;
+            /* font-family: Lato; */
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+
+        }
+
+        .ff-info {
+            align-items: center;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .ff-info-title {
+            padding: 10px 0px;
+        }
+
+        .ff-info-description {
+            margin-top: 10px;
+        }
+
+        .featured-flower {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .featured-flower-box {
+            border-radius: 300px 300px 0px 0px;
+            width: 450px;
+            height: 475px;
+            flex-shrink: 0;
+            margin: 10px;
+            position: relative;
+
+        }
+
+        .box-img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        .ff-img-caption {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+            color: #272727;
+            text-align: center;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px;
+            text-decoration-line: underline;
+
+        }
+
+        .rectangle {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 80% auto;
+            height: 200px;
+            border: none;
+            border-radius: 8px;
+            background: rgba(39, 39, 39, 0.05);
+            margin: 50px 300px;
+
+        }
+
+        .rectangle>a {
+            width: 88px;
+            height: 88px;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+        }
+
+        .rectangle>a figcaption {
+            text-align: center;
+
+        }
+
+        /* hot heal section */
+        .hot-deal {
+            width: 100% auto;
+            display: flex;
+            border-radius: 8px;
+            background: rgba(229, 84, 115, 0.05);
+            align-items: center;
+            align-content: center;
+            justify-content: space-around;
+        }
+
+        .left-side-deal {
+            text-align: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        .hot-deal-title {
+            color: #272727;
+            font-size: 40px;
+            font-weight: 800;
+            line-height: normal;
+        }
+
+        .hot-deal-description {
+            width: 50%;
+            color: rgba(39, 39, 39, 0.60);
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+            margin: auto;
+
+        }
+
+        .right-side-deal img {
+            margin: 100px;
+        }
+
+        /* hot deal section end */
+
+        /* Subscribe section Started */
+
+        .subscribe {
+            width: 80% auto;
+            height: 150vh;
+            /* padding-left: 140px; */
+            padding: 50px 140px;
+        }
+
+        .subscribe-text-content {
+            text-align: center;
+            font-style: normal;
+            line-height: normal;
+        }
+
+        .subscribe-title {
+            color: #272727;
+            font-size: 40px;
+            font-weight: 800;
+        }
+
+        .subscribe-description {
+            width: 594px;
+            margin: auto;
+            padding: 50px;
+            color: rgba(39, 39, 39, 0.60);
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+
+        }
+        .subscribe-img-content {
+            display: flex;
+            /* justify-content: space-around; */
+            align-items: center;
+            align-content: center;
+            gap: 10px;
+
+        }
+
+        .subscribe-img-box {
+            width: 350px;
+            height: 350px;
+            
+        }
+
+        .subscribe-form {
+            background: url(./flower-asset/Rectangle9.png) no-repeat center center;
+            width: 80% auto;
+            /* margin-right: 158px; */
+            margin-top: 100px;
+            height: 400px;
+            position: relative;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            align-items: center;
+
+
+
+        }
+
+        .subscribe-input {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 200px;
+        }
+
+        input[type=email] {
+            width: 50%;
+            padding: 15px;
+            margin-right: 15px;
+            border: none;
+            background: #fff;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+        }
+
+        /* Subscribe section ended */
+
+        span {
+            color: #E55473;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+        }
+
+        .footer {
+            background: #111010;
+            width: 100% auto;
+            height: 200px;
+            color: #fff;
+            text-align: center;
+            font-style: normal;
+            line-height: normal;
+            padding-top: 150px;
+        }
+
+        .footer-title {
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 24px;
+        }
+
+        .footer-description {
+            display: flex;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px; 
+            margin: auto;
+            justify-content: center;          
+            
+        }
+
+        .footer-copyright {
+            color: rgba(255, 255, 255, 0.40);
+            font-size: 16px;
+            font-weight: 400;
+            margin-top: 25px;
+        }
+    
